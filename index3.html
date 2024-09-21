@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            border:1px solid black;
+            padding:30px;
+            width:25%;
+            color: rgb(13, 13, 14);
+            border-radius: 10px;
+            margin:100px 700px;
+            background: rgba(203, 201, 201, 0.45);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.5px);
+-webkit-backdrop-filter: blur(13.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        body{
+            background-image:url(bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width:100vw;
+            height: 90vh;
+            background-attachment: fixed;
+            backdrop-filter: blur(4px);
+        }
+    </style>
+</head>
+<body>
+    <form action="index1.html" method="get">
+        <h1>Reset Password</h1>
+        <br>
+        <input type="text" name="password" placeholder="old Password" pattern="(?=.*[A-Z)(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])([A-Za-z!@#$%^&*0-9]{8,})">
+        <br>
+        <br>
+        <input type="text" name="password" placeholder="New Password" pattern="(?=.*[A-Z)(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])([A-Za-z!@#$%^&*0-9]{8,})">
+        <br>
+        <br>
+        <input type="text" name="password" placeholder="Re-enter Password" pattern="(?=.*[A-Z)(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])([A-Za-z!@#$%^&*0-9]{8,})">
+        <br>
+        <br>
+        <input style="background-color: rgb(42, 42, 210); color:aliceblue" type="submit" value="sign up">
+    </form>
+</body>
+</html>

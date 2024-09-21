@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            border:1px solid black;
+            padding-bottom: 10;
+            border-radius: 20px;
+            width:25%;
+            margin: 100px 800px;
+            background: rgba(203, 201, 201, 0.45);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.5px);
+-webkit-backdrop-filter: blur(13.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+            
+        }
+        input:hover{
+            background-color: rgb(163, 230, 162);
+        }
+        body{
+            background-image:url(bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width:100vw;
+            height: 90vh;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <form action="index1.html" method="post">
+        <h1><strong>SignUp here!</strong></h1>
+        <br>
+        <input type="text" name="username" placeholder="username" pattern="[a-zA-Z]+" required><br>
+        <br>
+        <input type="text" name="email" placeholder="email" title="Enter proper Email" required>
+        <br>
+        <br>
+        <input type="number" name="number" placeholder=" Phone Number" required>
+        <br>
+        <br>
+        <input type="password" name="number" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])([A-Za-z!@#$%^&*0-9]{8,})" required>
+        <br>
+        <br>
+        <input type="text" name="number" placeholder=" Confirm Password" pattern="(?=.*[A-Z)(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])([A-Za-z!@#$%^&*0-9]{8,})" required>
+        <br>
+        <br>
+        <div>
+        <input  style=" background-color: rgb(44, 44, 198); color: aliceblue;"type="submit" value ="sign up">
+        </div>
+        <br>
+        <p>Already have a account! <a href="index1.html">login</a><p>
+    </form>
+</body>
+</html>
