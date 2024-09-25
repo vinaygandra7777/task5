@@ -16,6 +16,8 @@
 .nav{
     overflow: hidden;
     background-color: rgb(30, 29, 29);
+    position:sticky;
+    top:0%;
 }
 .nav a{
     text-decoration: none;
